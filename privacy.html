@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daylight Privacy Policy</title>
+  <style>
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --fg: #1f2933;
+  --muted: #52606d;
+  --border: #d9e2ec;
+  --accent: #087E92;
+  --card: #f8fafc;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0B0D10;
+    --fg: #f3f4f6;
+    --muted: #cbd5e1;
+    --border: #334155;
+    --card: #111827;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 20px 64px;
+}
+
+nav {
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+nav a {
+  margin-right: 16px;
+}
+
+h1, h2 {
+  line-height: 1.25;
+}
+
+h1 {
+  margin-top: 0;
+  color: var(--accent);
+}
+
+p, li {
+  color: var(--fg);
+}
+
+.meta {
+  color: var(--muted);
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+a {
+  color: var(--accent);
+}
+
+footer {
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+  </style>
+</head>
+<body>
+  <main>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+    </nav>
+
+    <h1>Daylight Privacy Policy</h1>
+
+    <p class="meta"><strong>Effective date:</strong> [Insert date]<br>
+    <strong>Developer:</strong> [Your legal name or developer name]<br>
+    <strong>Contact:</strong> [Your support email]</p>
+
+    <h2>Overview</h2>
+    <p>
+      Daylight is a local-first Android app for activity logging, exercise logging,
+      journaling, and personal reflection.
+    </p>
+    <p>
+      Daylight is designed so that your data stays on your device by default.
+      Daylight does not provide cloud sync, cloud backup, user accounts, hosted storage,
+      advertising, or third-party analytics.
+    </p>
+
+    <h2>Data stored by the app</h2>
+    <p>Daylight may store the following data locally on your device:</p>
+    <ul>
+      <li>activity categories and activities</li>
+      <li>activity intervals and timestamps</li>
+      <li>exercise names, sets, weights, reps, and dates</li>
+      <li>journal questions and journal entries</li>
+      <li>app settings and export settings</li>
+      <li>export history and export status information</li>
+    </ul>
+    <p>
+      This data is used to provide the app’s core logging, history, export,
+      scheduling, and reflection features.
+    </p>
+
+    <h2>Local storage</h2>
+    <p>
+      Daylight stores app data locally on your device using Android app storage.
+      If you delete the app or clear app data, your local Daylight data may be deleted
+      unless you have exported it separately.
+    </p>
+    <p>Daylight does not operate a server that stores your app data.</p>
+
+    <h2>Manual and scheduled file exports</h2>
+    <p>
+      Daylight allows you to export your data to a ZIP file containing CSV files and metadata.
+      You control where this export file is saved.
+    </p>
+    <p>
+      If you save an export to a folder, cloud drive, backup folder, or other storage provider,
+      that destination may be controlled by another app or service. Daylight does not control
+      those external storage locations.
+    </p>
+
+    <h2>HTTPS endpoint export</h2>
+    <p>
+      Daylight includes an optional HTTPS endpoint export feature.
+    </p>
+    <p>
+      If you enable endpoint export, Daylight sends a ZIP export of your app data to the HTTPS
+      endpoint URL that you configure. This export may include activity logs, exercise logs,
+      journal entries, custom questions, timestamps, and metadata.
+    </p>
+    <p>
+      Only configure an endpoint that you own or trust. Daylight does not control the endpoint
+      you provide and cannot control what happens to your data after it is sent.
+    </p>
+    <p>
+      Disabling endpoint export stops future endpoint exports but does not delete data that has
+      already been sent to an endpoint.
+    </p>
+
+    <h2>Network use</h2>
+    <p>
+      Daylight does not require internet access for normal local logging.
+      Network access is only used for features that require it, such as optional HTTPS endpoint export.
+    </p>
+
+    <h2>Data sharing</h2>
+    <p>Daylight does not sell your data.</p>
+    <p>
+      Daylight does not share your data with the developer, advertisers, analytics providers,
+      or a Daylight-operated cloud service.
+    </p>
+    <p>
+      If you enable HTTPS endpoint export, your export data is sent to the endpoint that you configure.
+      This is user-directed sharing to a destination chosen by you.
+    </p>
+
+    <h2>Security</h2>
+    <p>
+      Endpoint exports require an HTTPS URL. HTTPS protects data in transit between your device
+      and the configured endpoint, but it does not guarantee that the endpoint itself is trustworthy
+      or securely managed.
+    </p>
+    <p>
+      You are responsible for choosing secure export destinations and protecting exported files.
+    </p>
+
+    <h2>Children</h2>
+    <p>
+      Daylight is not intended for children. The app is intended for personal use by adults and
+      general users who want to record and reflect on their own activity, exercise, and journal data.
+    </p>
+
+    <h2>Changes to this policy</h2>
+    <p>
+      This Privacy Policy may be updated from time to time. If the app’s data practices change
+      materially, the policy should be updated before or at the same time as the app change.
+    </p>
+
+    <h2>Contact</h2>
+    <p>For privacy questions, contact: [Your support email]</p>
+
+    <footer>
+      Daylight legal pages. Replace placeholder fields before publishing.
+    </footer>
+  </main>
+</body>
+</html>
